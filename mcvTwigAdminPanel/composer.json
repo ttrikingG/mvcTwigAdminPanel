@@ -1,0 +1,23 @@
+{
+  "name": "tom/mvc",
+  "description": "mvc",
+  "authors": [
+    {
+      "name": "tomtom",
+      "email": "tom_tricking.on@hotmail.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.8",
+    "twig/string-extra": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app",
+      "core\\": "core"
+    },
+    "files": [
+      "app/functions/helpers.php"
+    ]
+  }
+}
